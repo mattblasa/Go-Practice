@@ -5,8 +5,10 @@ import (
 )
 
 func main() {
-	//This is a short variable declaration 
+	//This is a short variable declaration
 	n := 1 == 1
-	n := 1 == 2
-	fmt.Printf("%v, %T", n, n )
+	m := 1 == 2
+	//\n makes a line skip 
+	fmt.Printf("%v, %T\n", n, n )
+	fmt.Printf("%v, %T", m, m)
 }
