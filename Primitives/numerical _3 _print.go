@@ -8,5 +8,5 @@ func main() {
 	fmt.Println(b1 + b2)
 	fmt.Println(b1 - b2)
 	fmt.Println(b1 * b2)
-	fmt.Println(b1 /b2)
+	fmt.Println(b1 / b2)
 }
