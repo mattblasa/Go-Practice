@@ -10,9 +10,10 @@ func main() {
 
 	//0xC0000022 is the memory address for the pointer
 
-	//de-reference a pointer
+	//de-reference a pointer using an asterisk
 	*firstName = "Arthur"
 
+	//pointer arithmetic doesnt exist in Golang 
 	fmt.Println(firstName)
 }
 
