@@ -13,7 +13,7 @@ func main() {
 	//de-reference a pointer using an asterisk
 	*firstName = "Arthur"
 
-	//pointer arithmetic doesnt exist in Golang 
+	//pointer arithmetic doesnt exist in Golang
 	fmt.Println(firstName)
 }
 
