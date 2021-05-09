@@ -7,15 +7,22 @@ import "fmt"
 //Constant isn't limited to the main function
 const (
 	first = iota
-	second = iota
+	second
 )
 /*
-Iota - every time iota is used, it increments its value by 1. Meaning you can build long chains of constants using
-iota.
-
+Iota resets between cosntant blocks. Easier to use for different constant blocks.
  */
+
+const (
+	third = iota
+	fourth
+)
+
+
+
+
 func main() {
-	fmt.Println(first, second)
+	fmt.Println(first, second, third, fourth)
 }
 
 
