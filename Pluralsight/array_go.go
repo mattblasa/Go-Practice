@@ -7,7 +7,9 @@ import (
 func main() {
 	/*
 	In Go, we declare the array, the size and types. Unless you specify the data type,
-	an array cant be intialized 
+	an array cant be intialized
+
+	If you reach the end of the array, you'll get a compile time error. So arr[4] will not run in this case. 
 	 */
 	// variable, with the size of the array and the data type
 	var arr [3]int
