@@ -15,4 +15,11 @@ func main() {
 	u.FirstName = "Arthur"
 	u.LastName = "Dent"
 	fmt.Println(u.FirstName)
+
+	u2 := user{
+		ID: 1,
+		FirstName: "Arthur",
+		LastName: "Dent",
+	}
+	fmt.Println(u2)
 }
