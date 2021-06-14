@@ -7,5 +7,7 @@ type User struct {
 }
 
 var (
-	
+	users []*User //This is a pointer
+	nextID int32 = 1
+
 )
