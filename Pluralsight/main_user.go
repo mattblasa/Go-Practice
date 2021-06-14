@@ -6,5 +6,10 @@ import (
 )
 
 func main() {
-	u := models.User
+	u := models.User{
+		ID : 2,
+		FirstName: "Tricia",
+		LastName: "McMillan",
+	} //This imports from the github
+	fmt.Println(u)
 }
