@@ -6,6 +6,7 @@ import(
 
 func main() {
 	fmt.Println("Yo killa.")
+	startWebServer()
 }
 
 func startWebServer() {
