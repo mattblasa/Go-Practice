@@ -18,7 +18,8 @@ func (uc userController) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 //Constructor Function - Not a constuctor
 
 func newUserController() *userController { //*userConroller is a pointer. The * is the pointer
-	return &userController{ //& is a of operator
+	return &userController{ //& is an address of operator 
+		//looks for paths that are /users/ followed by a number
 		userIDPattern: regexp.MustCompile('^/users/(\d+)/?'),
 	}
 }
