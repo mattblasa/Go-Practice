@@ -11,7 +11,7 @@ func main() {
 	fmt.Println(err)
 }
 
-func startWebServer(port int) error { //specify the return data
+func startWebServer(port int) (int, error) { //specify the return data
 	fmt.Println("Starting server...")
 	//Stuff here
 	fmt.Println("Server started on port", port)
