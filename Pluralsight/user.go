@@ -1,3 +1,5 @@
+//API Test
+
 package models
 
 type User struct {
@@ -8,7 +10,7 @@ type User struct {
 
 var (
 	users []*User //This is a pointer
-	nextID int32 = 1
+	nextID = 1
 
 )
 
@@ -24,4 +26,11 @@ func GetUsers() []*User {
 	   User Structure
 	*/
 	return users
+}
+
+func AddUser(u User) (User, error) { //returns user, otherwise Error
+	u.ID = nextID
+	nextID++
+	users = append(users, &u) //&u is a reference to operator. Its a pointer (Explain this better)
+	return u, nil
 }
