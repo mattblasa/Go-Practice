@@ -14,3 +14,11 @@ type userController struct{
 func (uc userController) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Hello from Plano!") //Convert string to byte slice
 }
+
+//Constructor Function - Not a constuctor
+
+func newUserController() *userController { //*userConroller is a pointer. The * is the pointer
+	return &userController{ //& is a of operator
+		userIDPattern: regexp.MustCompile('^/users/(\d+)/?'),
+	}
+}
