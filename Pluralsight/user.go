@@ -11,3 +11,17 @@ var (
 	nextID int32 = 1
 
 )
+
+
+func GetUsers() []*User {
+	/*
+	   Returns Users from the user structure
+
+	   Parameters:
+	   None
+
+	   Returns:
+	   User Structure
+	*/
+	return users
+}
