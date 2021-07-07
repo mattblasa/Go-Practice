@@ -1,10 +1,13 @@
 package Controllers
 
-import "net/http"
+import (
+	"net/http"
+	"regexp"
+)
 
 //Custom data type userController
 type userController struct{
-
+	userIDPattern *regexp.Regexp
 }
 
 //method. userController is the type for uc 
