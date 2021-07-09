@@ -3,7 +3,7 @@ package Experiments
 import "fmt"
 
 func main() {
-	i, j := 42, 2701
+	i, j := 42, 2701 // declare i and j var
 
 	p := &i         // point to i
 	fmt.Println(*p) // read i through the pointer
