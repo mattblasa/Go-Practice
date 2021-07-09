@@ -1,6 +1,6 @@
 //API Test
 
-package models
+package main
 
 type User struct {
 	ID			int
