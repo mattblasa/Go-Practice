@@ -7,4 +7,4 @@ https://img.shields.io/badge/test-rrr-red
 
 <a href="https://public.tableau.com/profile/mblasa#!/"><img src="https://img.shields.io/badge/Matt's-Tableau%20Portfolio-yellow"/></a>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FL-Marine&layout=compactlangs_count=8&theme=algolia"/>" width="52%"></img> 
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FL-Marine&layout=compactlangs_count=8&theme=algolia"></img> 
